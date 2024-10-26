@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:brown_mushroom"
+
+    }
+  ],
+  "result": {
+    "item": "createhungarianfoods:eleszto",
+    "count": 2
+  }
+}

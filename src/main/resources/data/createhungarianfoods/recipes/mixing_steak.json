@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "createhungarianfoods:eleszto"
+    },
+    {
+      "fluid": "minecraft:water",
+      "amount": 100
+    }
+  ],
+  "results": [
+    {
+      "fluid": "minecraft:lava",
+      "amount": 1000
+    }
+  ],
+  "heatRequirement": "heated"
+}
