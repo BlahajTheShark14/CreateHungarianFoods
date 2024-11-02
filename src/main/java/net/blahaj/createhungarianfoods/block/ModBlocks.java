@@ -1,4 +1,4 @@
-package net.blahaj.tutorialmod.block;
+package net.blahaj.createhungarianfoods.block;
 
 public class ModBlocks {
 }

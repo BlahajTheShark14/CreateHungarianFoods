@@ -1,6 +1,7 @@
 package net.blahaj.createhungarianfoods;
 
 import com.mojang.logging.LogUtils;
+import net.blahaj.createhungarianfoods.item.ModCreativeModTabs;
 import net.blahaj.createhungarianfoods.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -26,8 +27,9 @@ public class CreateHungarianFoods {
     public CreateHungarianFoods() {
     IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        ModItems.register(modEventBus);
 
+        ModItems.register(modEventBus);
+        ModCreativeModTabs.CREATIVE_MODE_TABS.register(modEventBus);
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
