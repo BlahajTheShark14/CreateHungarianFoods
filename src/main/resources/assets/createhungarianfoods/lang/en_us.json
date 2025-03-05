@@ -1,7 +1,10 @@
 {
-  "item.createhungarianfoods.eleszto": "Élesztő",
-  "item.createhungarianfoods.tejfolos_langos": "Tejfölös Lángos",
-  "item.createhungarianfoods.sajtos_tejfolos_langos": "Sajtos Tejfölös Lángos",
-  "item.createhungarianfoods.langos": "Lángos",
-  "creativetab.create_hungarian_foods": "Create: Hungarian Foods"
+  "item.createhungarianfoods.yeast": "Yeast",
+  "item.createhungarianfoods.sour_cream_langos": "Sour Cream Langos",
+  "item.createhungarianfoods.sour_cream_and_cheese_langos": "Sour Cream and Cheese Langos",
+  "item.createhungarianfoods.langos": "Langos",
+  "item.createhungarianfoods.god_langos": "GOD Langos",
+  "item.createhungarianfoods.sour_cream": "Sour Cream",
+
+"creativetab.create_hungarian_foods": "Create: Hungarian Foods"
 }

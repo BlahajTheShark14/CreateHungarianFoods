@@ -34,6 +34,7 @@ public class CreateHungarianFoods {
 
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
+
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
@@ -42,7 +43,7 @@ public class CreateHungarianFoods {
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.ELESZTO);
+            event.accept(ModItems.YEAST);
         }
     }
 

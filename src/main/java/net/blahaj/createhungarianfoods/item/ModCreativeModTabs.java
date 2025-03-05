@@ -17,13 +17,16 @@ public class ModCreativeModTabs {
 
     public static final RegistryObject<CreativeModeTab> CREATE_HUNGARIAN_FOODS = CREATIVE_MODE_TABS.register("create_hungarian_foods",
             () -> CreativeModeTab.builder()
-                    .icon(() -> new ItemStack(ModItems.ELESZTO.get()))
+                    .icon(() -> new ItemStack(ModItems.YEAST.get()))
                     .title(Component.translatable("creativetab.create_hungarian_foods"))
                     .displayItems((pParameters, p0utput) -> {
-                        p0utput.accept(ModItems.ELESZTO.get());
+                        p0utput.accept(ModItems.YEAST.get());
                         p0utput.accept(ModItems.LANGOS.get());
-                        p0utput.accept(ModItems.TEJFOLOS_LANGOS.get());
-                        p0utput.accept(ModItems.SAJTOS_TEJFOLOS_LANGOS.get());
+                        p0utput.accept(ModItems.SOUR_CREAM_LANGOS.get());
+                        p0utput.accept(ModItems.SOUR_CREAM_AND_CHEESE_LANGOS.get());
+                        p0utput.accept(ModItems.GOD_LANGOS.get());
+                        p0utput.accept(ModItems.SOUR_CREAM.get());
+
 
 
 
